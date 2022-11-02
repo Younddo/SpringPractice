@@ -1,6 +1,7 @@
 package com.seongyounmin.springsideproject.jwt;
 
 import com.seongyounmin.springsideproject.config.UserDetailsServiceImpl;
+import com.seongyounmin.springsideproject.repository.RefreshTokenRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
